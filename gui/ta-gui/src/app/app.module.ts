@@ -7,18 +7,20 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { MetasComponent } from './metas.component';
 import { AlunosComponent } from './alunos.component';
+import { AutoAvaliacaoComponent } from './autoAvaliacao.component';
 import { AlunoService } from './aluno.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     MetasComponent,
-    AlunosComponent
+    AlunosComponent,
+    AutoAvaliacaoComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule, 
+    HttpModule,
     RouterModule.forRoot([
       {
         path: 'metas',
@@ -27,6 +29,10 @@ import { AlunoService } from './aluno.service';
       {
         path: 'alunos',
         component: AlunosComponent
+      },
+      {
+        path: 'autoAvaliacao',
+        component: AutoAvaliacaoComponent
       }
     ])
   ],
