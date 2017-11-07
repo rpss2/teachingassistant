@@ -1,0 +1,28 @@
+th {
+  background-color: #3399ff;
+  color: #ffffff;
+}
+
+td, th {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+  background-color: #ffea32;
+  color: #000000;
+}
+
+tr:hover {
+  background-color: #cce6ff;
+}
+
+.autoAvaliacao {
+  text-align: center;
+  width: 20px;
+}
+
+.autoAvaliacao input {
+  border: none;
+  width: 40px;
+}
